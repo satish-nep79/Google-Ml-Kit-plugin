@@ -24,6 +24,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.b.biradar.google_ml_kit'
     compileSdkVersion 30
 
     defaultConfig {
